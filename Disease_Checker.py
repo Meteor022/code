@@ -30,10 +30,12 @@ elif (symptom_1 == "shortness of breath") and symptom_2== "wheezing":
 elif (symptom_1 == "cough with mucus") and symptom_2 == "chest pain":
     print(" You might have **Pneumonia**.This can be serious visit a hospital NOOWWWW")
 
-elif (symptom_1 == "frequent urination") and symptom_2 == "excessive thirst" or "thirsty" in symptom_2:
+elif (symptom_1 == "frequent urination") and (symptom_2 == "excessive thirst" or ("thirsty" in symptom_2)):
     print("Sounds like early **Diabetes** signs. I think you ate one to much donuts man... or woman")
 else:
     print(" Sorry! I couldn't match those symptoms with a known condition")
     print("This is just a basic program — please consult a real doctor!")
+print("The program is coming to an end , Warning , This is a program which guesstimates your disease , do consult a doctor for dire cases! , Bye Patient! , i know you will miss me and i will miss you 2!!")
+
 
 
