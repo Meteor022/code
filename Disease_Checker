@@ -13,16 +13,16 @@ symptom_2 = input("Now do the same thing but the 2nd Most Major Symptom. Again, 
 
 # Start checking
 if (symptom_1 == "runny nose" or symptom_1 == "block nose") and symptom_2 == "sneezing":
-    print("\n🤧 According to my calculations, you got a case of the **Common Cold**.")
+    print(" According to my calculations, you got a case of the **Common Cold**.")
     
 elif (symptom_1 == "fever" or symptom_1 == "high fever") and symptom_2 == "body pain":
-    print("\n🔥 Looks like you might have the **Flu (Influenza)**. Rest up and stay hydrated!")
+    print(" Looks like you might have the **Flu (Influenza)**. Rest up and stay hydrated!")
 
 elif (symptom_1 == "dry cough" or symptom_1 == "cough") and symptom_2 == "loss of smell":
-    print("\n😷 Hmm... these symptoms match with **COVID-19**. Please consider getting tested and isolating if needed.")
+    print(" Hmm... these symptoms match with **COVID-19**. Please consider getting tested and isolating if needed.")
 
 elif (symptom_1 == "fever") and symptom_2 == "chills":
-    print("\n🦟 You might have **Malaria** — especially if it's recurring fever. Better see a doctor ASAP!")
+    print("You might have **Malaria** — especially if it's recurring fever. Better see a doctor ASAP!")
 
 elif (symptom_1 == "high fever") and symptom_2 == "joint pain":
     print("Yikes... you could be dealing with **Dengue**. Severe body aches are a giveaway!")
