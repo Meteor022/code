@@ -3,14 +3,6 @@ print("Wanna check if you got a disease? , Well enter your symptoms and lets fin
 symptom_1=input("Enter THE MOST MAJOR SYMPTOM that you got. Like really Major , Don't Worry no need to be embarassed :)")
 symptom_2=input("Now do the same thing but the 2nd Most Major Symptom , again do NOT hold back we need to know")
 
-if symptom_1==( "runny nose" or "block nose") and symptom_2=="sneezing":
-   print("According to my Calculations , Seems like you got a case of the common cold! , of course , this is no real substitute to a doctor visit but thats our guess!. Good Luck on that Recovery tho")
-print("Hello!")
-print("Wanna check if you got a disease? Well, enter your symptoms and let's find out! 🤖")
-
-symptom_1 = input("Enter THE MOST MAJOR SYMPTOM that you got. Like really Major. Don't worry, no need to be embarrassed :) ").lower()
-symptom_2 = input("Now do the same thing but the 2nd Most Major Symptom. Again, do NOT hold back — we need to know! ").lower()
-
 if (symptom_1 == "runny nose" or symptom_1 == "block nose") and symptom_2 == "sneezing":
     print(" According to my calculations, you got a case of the **Common Cold**.")
     
@@ -45,6 +37,3 @@ else:
     print("This is just a basic program — please consult a real doctor!")
 
 
-else:
-    print(" Sorry! I couldn't match those symptoms with a known condition")
-    print("This is just a basic program — please consult a real doctor! 🧑‍⚕️❤️")
